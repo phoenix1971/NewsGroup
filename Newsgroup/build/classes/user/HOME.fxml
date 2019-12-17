@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user.HOMEController">
+   <children>
+      <Label layoutX="24.0" prefHeight="231.0" prefWidth="596.0" text="   Welcome to CSE Newsgroup" textFill="#322f2f">
+         <font>
+            <Font name="System Bold Italic" size="41.0" />
+         </font>
+      </Label>
+      <VBox layoutX="306.0" layoutY="210.0" prefHeight="462.0" prefWidth="390.0" spacing="20.0">
+         <children>
+            <Label text="Courses">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#GoToOOP" prefHeight="48.0" prefWidth="333.0" text="CSE201: Object Oriented Programming Language">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#GoToDS" prefHeight="43.0" prefWidth="179.0" text="CSE203: Data Structures">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#GoToDLD" prefHeight="46.0" prefWidth="197.0" text="CSE205: Digital Logic Design">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#GoToDM" prefHeight="40.0" prefWidth="229.0" text="CSE 103: Discreate Mathematics">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="24.0" layoutY="297.0" prefHeight="317.0" prefWidth="233.0" spacing="20.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#GoToProfile" text="My Profile">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#GoToNotification" text="Notifications">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#LogOut" text="Log out">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Label fx:id="Name" layoutX="24.0" layoutY="224.0" prefHeight="43.0" prefWidth="304.0" text="" />
+      <Button layoutX="24.0" layoutY="224.0" mnemonicParsing="false" onAction="#GoToFaculty" prefHeight="40.0" prefWidth="179.0" text="CSE faculty">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

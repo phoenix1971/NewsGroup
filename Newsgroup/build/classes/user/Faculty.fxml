@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="user.FacultyController">
+   <children>
+      <Label layoutX="108.0" layoutY="62.0" prefHeight="70.0" prefWidth="465.0" text="                 CSE Faculty">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="45.0" layoutY="159.0" prefHeight="491.0" prefWidth="568.0" text="Depertment Head  :&#10;Dr. M. Sohel Rahman (ডঃ মোহাম্মদ সোহেল রহমান) ( Professor )&#10;&#10;Professors:&#10;1.   Dr. M. Kaykobad (ডঃ মোহাম্মদ কায়কোবাদ)&#10;2.   Dr. Muhammad Masroor Ali (ডঃ মুহাম্মদ মাসরুর আলী)&#10;3.   Dr. Md. Abul Kashem Mia (ডঃ মোঃ আবুল কাশেম মিয়া)&#10;4.   Dr. Md. Saidur Rahman (ডঃ মোঃ সাইদুর রহমান)&#10;5.   Dr. Md. Monirul Islam (ডঃ মোঃ মনিরুল ইসলাম)&#10;6.   Dr. Md. Mostofa Akbar (ডঃ মোঃ মোস্তফা আকবর)&#10;7.   Dr. Abu Sayed Md. Latiful Hoque (ডঃ এ. এস. এম. লতিফুল হক)&#10;8.   Dr. Mohammad Mahfuzul Islam (ডঃ মুহাম্মদ মাহফুজুল ইসলাম)&#10;9.   Dr. M. Sohel Rahman (ডঃ মোহাম্মদ সোহেল রহমান)&#10;10.   Dr. A.K.M. Ashikur Rahman (ডঃ এ. কে. এম. আশিকুর রহমান)&#10;11.   Dr. Mohammed Eunus Ali (ডঃ মোহাম্মদ ইউনুছ আলী)&#10;12.   Dr. Mahmuda Naznin (ডঃ মাহমুদা নাজনীন)&#10;&#10;Associate Professor:&#10;1.   Md. Abdus Sattar (মোঃ আব্দুস সাত্তার)&#10;2.   Dr. Md. Monirul Islam (ডঃ মোঃ মনিরুল ইসলাম)&#10;3.   Dr. S. M. Farhad (ডঃ এস. এম. ফরহাদ)&#10;4.   Dr. Md. Shohrab Hossain (মোঃ সোহরাব হোসেন)&#10;5.   Dr. Md. Yusuf Sarwar Uddin (ডঃ মোঃ ইউসুফ সরোয়ার উদ্দিন)&#10;6.   Dr. Tanzima Hashem (ডঃ তানজিমা হাশেম)&#10;&#10;Assistant Professors:&#10;1.   Abu Wasif (আবু ওয়াসিফ)&#10;2.   Tanveer Awal (তানভীর আউয়াল)&#10;3.   Khaled Mahmud Shahriar (খালেদ মাহমুদ শাহরিয়ার)&#10;4.   Dr. Muhammad Abdullah Adnan (মুহাম্মদ আবদুল্লাহ আদনান)&#10;5.   Dr. Rifat Shahriyar (রিফাত শাহরিয়ার )&#10;6.   Sukarna Barua (সুকর্ণ বড়ুয়া)&#10;7.   Dr. A. B. M. Alim Al Islam (এ. বি. এম. আলিম আল ইসলাম)&#10;8.   Dr. Anindya Iqbal (অনিন্দ্য ইকবাল)&#10;9.   Mohammad Saifur Rahman (মোহাম্মদ সাইফুর রহমান)&#10;10.   Dr. Sadia Sharmin (সাদিয়া শারমিন)&#10;11.   Johra Muhammad Moosa (জোহরা মুহাম্মদ মূসা)&#10;12.   Dr. Atif Hasan Rahman (আতিফ হাসান রহমান)&#10;&#10;Lecturer:&#10;1.   Muhammad Ali Nayeem (মুহাম্মদ আলী নাঈম)&#10;2.   Md. Aashikur Rahman Azim (মোঃ আশিকুর রহমান আজিম)&#10;3.   Toufique Ahmed (তৌফিক আহমেদ)&#10;4.   Abdus Salam Azad (আব্দুস সালাম আজাদ)&#10;5.   Tanvir Ahmed Khan (তানভীর আহমেদ খান)&#10;6.   Md. Ishat - E - Rabban (মোঃ ইশাত - ই - রাব্বান )&#10;7.   Radi Muhammad Reza (রাদি মুহাম্মাদ রেজা)&#10;8.   Siddhartha Shankar Das (সিদ্ধার্থ শঙ্কর দাস)&#10;9.   Mohammed Kaysar Abdullah ()&#10;10.   Md. Iftekharul Islam Sakib (মোঃ ইফতেখারুল ইসলাম সাকিব)&#10;11.   Madhusudan Basak (মধুসূদন বসাক)&#10;12.   Tanmoy Sen (তন্ময় সেন)&#10;13.   Ishtiyaque Ahmad (ইশতিয়াক আহমাদ )&#10;14.   Nazmus Saquib ()&#10;15.   Md. Tarikul Islam Papon (মোঃ তরিকুল ইসলাম পাপন)&#10;16.   Mehnaz Tabassum Mahin (মেহনাজ তাবাসসুম মাহিন)&#10;17.   Sabbir Ahmad (সাব্বির আহমাদ)&#10;18.   Shareef Ahmed (শরীফ আহমেদ)&#10;19.   Ch. Md. Rakin Haider (চৌধুরী মোঃ রাকিন হায়দার)" />
+      <Button layoutX="587.0" layoutY="50.0" mnemonicParsing="false" onAction="#Back" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
